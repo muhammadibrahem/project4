@@ -121,3 +121,23 @@ p {
     background-color: #1b1b1b55;
     color: #fff;
 }
+
+/* mobile screen*/
+@media (max-width: 400px) {
+    nav a {
+        min-width: 100%;
+    }
+
+    button,
+    #subt,
+    #guessField,
+    #newGame {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #guess {
+        font-size: 40px;
+        margin-top: 80px;
+    }
+}
